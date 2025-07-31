@@ -100,6 +100,7 @@ Includes **interactive filters** for Region, Industry, and Payment Status.
 
 ---
 Here is the Dashboard preview
+
 ![Dashboard Preview](https://github.com/Monika365/Automated-Invoice-Payment-Tracking-Dashboard/blob/master/Screenshot.png)
 
 ## 🚀 Conclusion
