@@ -1,62 +1,111 @@
-📌 Objective
-The Automated Invoice & Payment Tracking Dashboard is designed to provide real-time financial insights into customer payments, outstanding invoices, and overdue balances. The goal is to streamline payment tracking, optimize cash flow management, and enhance financial decision-making by offering a clear, data-driven view of revenue collection and invoice trends.
+# 📊 Automated Invoice & Payment Tracking Dashboard
 
-This dashboard automates data collection, analysis, and reporting, ensuring that businesses can proactively manage customer payments, overdue accounts, and energy consumption trends with minimal manual effort.
+Welcome to the **Automated Invoice & Payment Tracking Dashboard**, a real-time Power BI solution that streamlines financial operations by automating invoice monitoring, tracking customer payments, and improving revenue collection efficiency.
 
-📍 Project Overview 
-1️⃣ Data Collection & Integration
-Imported 10,000+ invoice records covering customer payments, energy consumption, invoice statuses, and overdue balances.
-Connected data from multiple sources (Excel, SQL, Power BI Service) for real-time updates.
-Integrated customer demographics such as region, industry, and customer type to uncover trends in payment behavior.
-2️⃣ Data Cleaning & Processing
-Standardized invoice records by handling missing payment dates, incorrect billing amounts, and duplicate transactions.
-Created calculated columns for Pending Payments, Overdue Days, and Payment Completion Rate to improve analysis.
-Used Power Query for automation, ensuring data updates dynamically without manual intervention.
-3️⃣ Data Analysis & Insights
-Analyzed monthly payment patterns to track revenue collection efficiency.
-Identified high-risk customers with overdue invoices to support proactive follow-ups.
-Segmented industries and customer types to detect payment behavior differences.
-4️⃣ Visualization & Dashboard Creation
-Developed an interactive Power BI dashboard that enables stakeholders to monitor:
-✅ Total Revenue & Outstanding Payments
-✅ Overdue Invoices & Average Payment Delays
-✅ Top Customers with Highest Pending Payments
-✅ Billing vs. Paid Amount Over Time
-✅ Energy Consumption Trends & Payment Behavior
-Implemented dynamic filtering options (Region, Industry, Payment Status) for tailored insights.
-5️⃣ Automation & Reporting
-Enabled scheduled data refresh to automatically update invoices and payments.
-Configured Power Automate alerts to notify finance teams when invoices become overdue.
-Scheduled monthly financial reports to be emailed to decision-makers.
-📌 Skills Used
-✅ Data Cleaning & Standardization
-✅ Automated Data Refresh in Power BI
-✅ Financial Data Analysis
-✅ Power Query for Data Processing
-✅ DAX Calculations for Metrics
-✅ Dashboard Design & Visualization
-✅ Automated Alerts (Power Automate)
-✅ Executive Reporting & Insights
+---
 
-📍 Key Insights & Recommendations
-🔹 Payment Behavior Analysis
-The Payment Completion Rate is 85.3%, indicating delayed payments in 14.7% of invoices.
-Top overdue customers (C_333, C_260, C_111) have 3,300+ overdue invoices, requiring proactive follow-ups.
-Manufacturing & Energy customers show higher payment delays compared to other industries.
-🔹 Revenue & Billing Trends
-Billed vs. Paid Amount Trends show seasonal dips in cash flow, particularly in June and October.
-The highest outstanding invoices belong to C_55 ($25K), C_180 ($21K), and C_195 ($20K), highlighting potential collection risks.
-🔹 Energy Consumption Impact
-Customers with higher energy consumption (above 8M kWh) tend to have higher overdue balances, requiring customized payment plans.
-Monthly energy usage fluctuates, peaking in March and September, aligning with higher revenue collection months.
-📌 Recommendations
-✅ Implement targeted follow-ups for overdue customers (C_333, C_260, C_111) to improve collections.
-✅ Adjust payment policies for industries with frequent delays (Manufacturing & Energy).
-✅ Introduce incentives for early payments, such as discounts or flexible payment plans.
-✅ Monitor seasonal trends and ensure better cash flow management during low-payment months.
-✅ Expand automation by integrating real-time payment reminders using Power Automate & Email Alerts.
+## 📌 Objective
 
-📌 Conclusion
-The Automated Invoice & Payment Tracking Dashboard successfully eliminates manual payment tracking, enhances financial oversight, and improves business decision-making by delivering real-time insights.
+This dashboard was developed to:
 
-With automated data refresh, proactive alerts, and interactive analytics, this solution ensures that businesses stay ahead of overdue invoices, optimize revenue collection, and drive financial efficiency. 🚀
+- 📉 Eliminate manual tracking of customer invoices and payments  
+- 📈 Optimize cash flow visibility and financial decision-making  
+- 🧠 Provide actionable insights into overdue accounts and consumption trends
+
+With automated data refresh and alerts, finance teams can stay ahead of potential risks and collection issues.
+
+---
+
+## 🔍 Project Overview
+
+### 1️⃣ Data Collection & Integration
+- Imported **10,000+ invoice records** containing:
+  - Payment history
+  - Energy usage
+  - Invoice and overdue status
+- Connected data from **Excel**, **SQL Server**, and **Power BI Service**
+- Integrated customer metadata: **Region**, **Industry**, and **Customer Type**
+
+### 2️⃣ Data Cleaning & Processing
+- Handled missing values, incorrect billing, and duplicates
+- Created calculated fields like:
+  - `Pending Payments`
+  - `Overdue Days`
+  - `Payment Completion Rate`
+- Used **Power Query** for dynamic, automated data preparation
+
+### 3️⃣ Data Analysis & Insights
+- Identified monthly payment patterns and revenue trends
+- Detected high-risk customers for targeted follow-ups
+- Analyzed industry-based differences in payment behavior
+
+### 4️⃣ Dashboard & Visualization
+The dashboard includes:
+
+- ✅ Total Revenue & Outstanding Payments  
+- ✅ Overdue Invoices & Average Delays  
+- ✅ Top Customers with Pending Payments  
+- ✅ Billed vs. Paid Amount Trend  
+- ✅ Energy Usage vs. Payment Behavior  
+
+Includes **interactive filters** for Region, Industry, and Payment Status.
+
+### 5️⃣ Automation & Reporting
+- Scheduled **automated data refresh**
+- Configured **Power Automate alerts** for overdue invoices
+- Monthly financial report **automatically emailed** to stakeholders
+
+---
+
+## 💡 Key Insights & Recommendations
+
+### 🔹 Payment Behavior
+- **Payment Completion Rate:** 85.3%
+- High-risk customers: **C_333**, **C_260**, **C_111** (3,300+ overdue invoices)
+- Manufacturing and Energy sectors show increased delays
+
+### 🔹 Revenue & Billing Trends
+- Seasonal dips in **June** and **October**
+- Top overdue balances:
+  - **C_55** – $25,000
+  - **C_180** – $21,000
+  - **C_195** – $20,000
+
+### 🔹 Energy Consumption Impact
+- Customers with usage >8M kWh tend to have higher overdue payments
+- Peaks in energy usage in **March** and **September** align with higher revenue months
+
+---
+
+## ✅ Recommendations
+
+- 📞 Follow up on overdue accounts (e.g., C_333, C_260, C_111)
+- 🛠️ Update policies for industries with frequent payment delays
+- 🎁 Offer early payment discounts or flexible payment plans
+- 🔄 Monitor seasonal revenue trends to optimize cash flow
+- 🤖 Expand use of **Power Automate** for real-time reminders
+
+---
+
+## 🧠 Skills Applied
+
+| Category                   | Tools / Techniques Used                         |
+|----------------------------|--------------------------------------------------|
+| Data Cleaning              | Power Query, Excel                              |
+| Data Integration           | Excel, SQL Server, Power BI Service             |
+| Data Analysis              | DAX, KPIs, Segmentation                         |
+| Visualization              | Power BI Dashboards                             |
+| Automation                 | Power BI Refresh, Power Automate                |
+| Reporting                  | Email Reports, KPI Cards                        |
+
+---
+Here is the Dashboard preview
+![Dashboard Preview](https://github.com/Monika365/Automated-Invoice-Payment-Tracking-Dashboard/blob/master/Screenshot.png)
+
+## 🚀 Conclusion
+
+The **Automated Invoice & Payment Tracking Dashboard** is a powerful solution for:
+
+- Gaining real-time visibility into financial performance  
+- Reducing overdue balances  
+- Enhancing data-driven decision-making  
