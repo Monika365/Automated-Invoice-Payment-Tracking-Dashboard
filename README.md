@@ -1,1 +1,1 @@
-# AutomatedInvoice-Payment-Tracking-Dashboard
+# Automated-Invoice-Payment-Tracking-Dashboard
